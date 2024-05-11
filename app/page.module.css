@@ -1,0 +1,52 @@
+.main {
+  min-height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+h1.page__title {
+  text-align: center;
+  font-size: 32px;
+  line-height: 40px;
+  padding: 2em 0 2em 0;
+}
+.container__list {
+  padding: 1em;
+  text-align: left;
+}
+.container__buttons {
+display: flex;
+width: 100%;
+justify-content: center;
+}
+.switch__btn {
+  padding: 0.5em 1em;
+  font-size: 16px;
+  line-height:24px;
+  color: white;
+  background-color: grey;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 1em; 
+  margin-right: 1em;
+}
+.switch__btn.active {
+  background-color: cornflowerblue;
+}
+input.search__input {
+  padding: 1em;
+  font-size: 16px;
+  line-height:24px;
+  border: none;
+  border-radius: 5px;
+}
+ul.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 0 auto;
+}
+li.list__item {
+  padding: 0.3em;
+}
